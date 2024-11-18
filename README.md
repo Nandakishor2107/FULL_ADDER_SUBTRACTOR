@@ -89,7 +89,26 @@ endmodule
 ```
 **RTL Schematic**
 
+//Full Adder
+
+![fa-lg](https://github.com/user-attachments/assets/0fffd534-7c5a-4805-97c3-e2642af06d2a)
+
+
+//Full Subtractor
+
+![fs-lg](https://github.com/user-attachments/assets/a10c16ef-107b-458e-9ac5-a9d63ce97f9e)
+
+
 **Output Timing Waveform**
+
+//Full Adder
+
+![fa-wf](https://github.com/user-attachments/assets/ec17f64f-d043-4633-9ab4-966ed67c8102)
+
+//Full Subtractor
+
+![fs-waverform](https://github.com/user-attachments/assets/3f00a875-4e32-42d2-b7a9-c1f40e47d66f)
+
 
 **Result:**
 
