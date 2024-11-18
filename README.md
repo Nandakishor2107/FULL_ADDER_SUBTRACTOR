@@ -51,6 +51,42 @@ Developed by: NANDA KISHOR SURESH PRIYA
 RegisterNumber: 24011485
 */
 
+
+//Full Adder
+
+```
+module fulladder(sum, cout, a, b, cin);
+output sum;
+output cout;
+input a;
+input b;
+input cin;
+
+wire w1,w2,w3;
+assign w1=a^b;
+assign w2=a&b;
+assign w3=w1&cin;
+assign sum=w1^cin;
+assign cout=w2|w3;
+endmodule
+```
+
+//Full Subtractor
+
+```
+module fullsubractor(a, b, cin, diff, borrow);
+ input a;
+ input b;
+ input cin;
+ output diff;
+ output borrow;
+wire abar;
+assign abar= ~ a;
+assign diff=a^b^cin;
+assign borrow=(abar & b) | (b & cin) |(cin & abar);
+endmodule
+
+```
 **RTL Schematic**
 
 **Output Timing Waveform**
