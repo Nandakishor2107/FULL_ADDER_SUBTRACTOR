@@ -38,9 +38,22 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+![fa-tt](https://github.com/user-attachments/assets/960a6681-e148-4669-9716-6a7a2d62f72e)
+
+![fs-tt](https://github.com/user-attachments/assets/e8f53bb0-83d2-4ffe-9c2e-acca982d03bd)
+
+
+
 **Procedure**
 
-Write the detailed procedure here
+Step1: Define the specifications and initialize the design.
+Step2: Declare the name of the entity and architecture by using VHDL source code.
+Step3: Write the source code in VERILOG.
+Step4: Check the syntax and debug the errors if found, obtain the synthesis report.
+Step5: Verify the output by simulating the source code.
+Step6: Write all possible combinations of input using the test bench.
+Step7: Obtain the place and route report.
+
 
 **Program:**
 
